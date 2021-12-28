@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Web-Developing-Agency-Landing/static/js/main.2fe4decf.js",
+    "static/js/787.4e1e4bbf.chunk.js": "/Web-Developing-Agency-Landing/static/js/787.4e1e4bbf.chunk.js",
+    "index.html": "/Web-Developing-Agency-Landing/index.html",
+    "main.2fe4decf.js.map": "/Web-Developing-Agency-Landing/static/js/main.2fe4decf.js.map",
+    "787.4e1e4bbf.chunk.js.map": "/Web-Developing-Agency-Landing/static/js/787.4e1e4bbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2fe4decf.js"
+  ]
+}
