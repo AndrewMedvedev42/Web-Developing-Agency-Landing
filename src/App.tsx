@@ -7,10 +7,12 @@ function App() {
   return (
     <div className="App">
       <NavigationMenu/>
-      <PageHeader/>
-      <OurServices/>
-      <AboutUs/>
-      <ContactSection/>
+      <section className="page-container">
+        <PageHeader/>
+        <OurServices/>
+        <AboutUs/>
+        <ContactSection/>
+      </section>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 {
   "name": "your-project-name",
-  "homepage":"https://andrewmedvedev42.github.io/Web-Developing-Agency-Landing/",
+  "homepage": "https://andrewmedvedev42.github.io/Web-Developing-Agency-Landing/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@types/node": "^17.0.5",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -23,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "scss": "node-sass --watch ./src/styles/ -o ./src/styles"
   },
   "eslintConfig": {
     "extends": [
