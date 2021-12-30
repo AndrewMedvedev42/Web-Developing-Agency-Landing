@@ -13,7 +13,7 @@ export const AboutUs:React.FC  = () => {
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <button className="yellow-button">More about us</button>
                 </article>
-                <img src={`${process.env.PUBLIC_URL}/Img_Design.png`} alt="illustration" />
+                <img src={`${process.env.PUBLIC_URL}/Img_Design.svg`} alt="illustration" />
             </article>
         </section>
     )

@@ -9,7 +9,7 @@ export const NavigationMenu:React.FC  = () => {
 
     return (
         <nav className="navigation-menu">
-            <img src={`${process.env.PUBLIC_URL}/Img_Design.png`} alt="website-logo" />
+            <img src={`${process.env.PUBLIC_URL}/Img_Design.svg`} alt="website-logo" />
             <ul>
                 <li>About us</li>
                 <li>Design</li>

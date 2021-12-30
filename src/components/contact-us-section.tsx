@@ -1,4 +1,8 @@
+import { useEffect, useState } from "react";
+import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
+
 export const ContactSection:React.FC  = () => {
+    const [iconSize, setIconSize] = useState(38)
     return (
         <section className="section contact-section">
             <article className="contact-section-container">
@@ -13,12 +17,10 @@ export const ContactSection:React.FC  = () => {
                 </form>
                 <article>
                     <h2>Contacts</h2>
-                    <span>Email</span>
-                    <span>Number</span>
                     <div>
-                        <img src="#" alt="social-media-icon"/>
-                        <img src="#" alt="social-media-icon"/>
-                        <img src="#" alt="social-media-icon"/>
+                        <BsFacebook size={iconSize} className="social-icon"/>
+                        <BsLinkedin size={iconSize} className="social-icon"/>
+                        <BsInstagram size={iconSize} className="social-icon"/>
                     </div>
                 </article>
             </article>

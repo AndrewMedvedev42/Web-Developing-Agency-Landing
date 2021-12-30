@@ -71,6 +71,9 @@ button {
 .page-container .about-us-section .about-us-container {
   display: flex; }
 
+.page-container .about-us-section .about-us-container img {
+  height: 370px; }
+
 .page-container .about-us-section .about-us-container article h2 {
   font-size: 36px; }
 
@@ -112,3 +115,6 @@ button {
 
 .page-container .contact-section .contact-section-container form div .email-input {
   margin-left: 7px; }
+
+.page-container .contact-section .contact-section-container article div .social-icon {
+  margin-right: 24px; }
